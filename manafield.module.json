@@ -1,0 +1,31 @@
+{
+  "id": "reference-web",
+  "name": "Manafield Reference Observer",
+  "version": "0.0.1",
+  "healthOperation": "health",
+  "operations": [
+    {
+      "id": "health",
+      "input": null,
+      "output": {
+        "type": "object",
+        "required": [
+          "status"
+        ],
+        "properties": {
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "binding": {
+        "type": "http",
+        "method": "GET",
+        "path": "/manafield/health",
+        "codecs": [
+          "json"
+        ]
+      }
+    }
+  ]
+}
