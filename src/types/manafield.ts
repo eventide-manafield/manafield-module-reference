@@ -21,6 +21,7 @@ export type OperationBinding = {
 
 export type OperationContract = {
   id: string;
+  description?: string;
   input: DataSchema | null;
   output: DataSchema | null;
   binding: OperationBinding;
