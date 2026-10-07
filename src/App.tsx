@@ -86,6 +86,10 @@ function ModuleCard({ module }: { module: ModuleDescriptor }) {
         <span className="version">v{module.version}</span>
       </div>
 
+      {module.description && (
+        <p className="module-description">{module.description}</p>
+      )}
+
       <dl>
         <div>
           <dt>Operations</dt>
