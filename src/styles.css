@@ -177,6 +177,11 @@ dd {
   font-size: 0.8rem;
 }
 
+.operation .operation-description {
+  margin: 0.2rem 0;
+  color: #b8adbf;
+}
+
 @media (max-width: 640px) {
   .hero {
     align-items: stretch;
