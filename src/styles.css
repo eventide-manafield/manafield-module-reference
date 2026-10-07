@@ -122,6 +122,12 @@ h1 {
   font-size: 0.85rem;
 }
 
+.module-description {
+  margin: 0.9rem 0 0;
+  color: #a99fb8;
+  line-height: 1.5;
+}
+
 dl {
   display: grid;
   grid-template-columns: 1fr 1fr;
