@@ -25,7 +25,8 @@
         "codecs": [
           "json"
         ]
-      }
+      },
+      "description": "Reports whether the Reference Module is healthy."
     }
   ],
   "description": "Reference Web Module for validating the Manafield Module Protocol and Registry discovery."
