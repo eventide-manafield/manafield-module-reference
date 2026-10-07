@@ -29,6 +29,7 @@ export type OperationContract = {
 export type ModuleDescriptor = {
   id: string;
   name: string;
+  description?: string;
   version: string;
   healthOperation?: string;
   operations: OperationContract[];
