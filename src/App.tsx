@@ -106,6 +106,9 @@ function ModuleCard({ module }: { module: ModuleDescriptor }) {
           <div className="operation" key={operation.id}>
             <div>
               <strong>{operation.id}</strong>
+              {operation.description && (
+                <span className="operation-description">{operation.description}</span>
+              )}
               <span>
                 {operation.binding.method} {operation.binding.path}
               </span>
