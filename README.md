@@ -4,6 +4,21 @@ Reference implementation for a Manafield Module.
 
 This repository is intentionally experimental. It is used to validate the Manafield Module Protocol with an implementation that is independent from the Rust-based Manafield Core.
 
+## Reference vs Template
+
+This repository is a **reference implementation, not a generic Module template**.
+
+Reference-specific behavior such as the Registry Observer UI, `/api/core/modules`, and local copies of Manafield Registry types should not be copied into every Module.
+
+The initial shared requirements extracted from this implementation are documented in the Core repository under:
+
+```text
+docs/kr/module-template-requirements.md
+docs/en/module-template-requirements.md
+```
+
+A dedicated TS/React template should be extracted only after another real Module validates which parts are actually common.
+
 ## Stack
 
 - React
