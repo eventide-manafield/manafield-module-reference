@@ -11,7 +11,7 @@ const coreUrl = process.env.MANAFIELD_CORE_URL ?? "http://127.0.0.1:8080";
 app.get("/manafield/health", (_request, response) => {
   response.json({
     status: "ok",
-    service: "manafield-module-reference",
+    service: "manafield-reference",
     version: "0.0.1"
   });
 });
