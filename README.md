@@ -1,4 +1,4 @@
-# Manafield Module Reference
+# Manafield Reference
 
 Reference implementation for a Manafield Module.
 
